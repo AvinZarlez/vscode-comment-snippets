@@ -1,0 +1,17 @@
+notifications:
+ email: false
+
+language: node_js
+
+node_js:
+ - 4.0
+
+install:
+ - "npm install"
+ 
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: scripts/deploy.sh
+  on:
+    tags: true
