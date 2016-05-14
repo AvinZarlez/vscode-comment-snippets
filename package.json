@@ -51,7 +51,8 @@
   "scripts": {
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
     "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "pretest": "tsc",
   },
   "devDependencies": {
     "typescript": "^1.6.2",
