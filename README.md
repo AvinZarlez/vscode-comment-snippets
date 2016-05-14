@@ -1,5 +1,7 @@
 # VSCode Comment Snippets
 
+[![Build Status](https://travis-ci.org/TobiahZ/vscode-comment-snippets.svg?branch=master)](https://travis-ci.org/TobiahZ/vscode-comment-snippets)
+
 ## About
 
 A simple extension to add Comment Snippets for C, Objective-C and CPP and Java
