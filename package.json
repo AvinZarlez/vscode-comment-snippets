@@ -2,7 +2,7 @@
   "name": "comment-snippets",
   "displayName": "Comment Snippets",
   "description": "Snippets for standard comment formats",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "Tobiah",
   "engines": {
     "vscode": "^1.0.0"
@@ -48,9 +48,8 @@
       }
     ]
   },
-    "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-    }
-  
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  }
 }
