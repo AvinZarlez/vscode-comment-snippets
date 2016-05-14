@@ -57,5 +57,5 @@
   "devDependencies": {
     "vsce": "^1.0.0",
     "vscode": "^0.11.x"
-  },
+  }
 }
