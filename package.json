@@ -2,7 +2,7 @@
   "name": "comment-snippets",
   "displayName": "Comment Snippets",
   "description": "Snippets for standard comment formats",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "publisher": "Tobiah",
   "engines": {
     "vscode": "^0.10.8"
