@@ -56,6 +56,7 @@
     "test": "mocha --ui tdd ./out/test/extension.test.js"
   },
   "devDependencies": {
-    "typescript": "^1.6.2"
+    "typescript": "^1.6.2",
+    "vscode": "^1.0.0"
   }
 }
