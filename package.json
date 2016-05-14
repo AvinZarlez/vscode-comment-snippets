@@ -1,51 +1,51 @@
 {
-    "name": "comment-snippets",
-    "displayName": "Comment Snippets",
-    "description": "Snippets for standard comment formats",
-    "version": "0.0.1",
-    "publisher": "Tobiah",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "homepage": "https://github.com/TobiahZ/vscode-comment-snippets",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/TobiahZ/vscode-comment-snippets.git"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "bugs": "https://github.com/TobiahZ/vscode-comment-snippets/issues",
-    "license": "SEE LICENSE FILE",
-    "keywords": [
-        "snippets",
-        "comments",
-        "comment",
-        "block comments",
-        "fancy comments",
-        "c",
-        "objective-c",
-        "cpp",
-        "java"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "objective-c",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "c",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "cpp",
-                "path": "./snippets/snippets.json"
-            },
-            {
-                "language": "java",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    }
+  "name": "comment-snippets",
+  "displayName": "Comment Snippets",
+  "description": "Snippets for standard comment formats",
+  "version": "0.0.2",
+  "publisher": "Tobiah",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "homepage": "https://github.com/TobiahZ/vscode-comment-snippets",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TobiahZ/vscode-comment-snippets.git"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "bugs": "https://github.com/TobiahZ/vscode-comment-snippets/issues",
+  "license": "SEE LICENSE FILE",
+  "keywords": [
+    "snippets",
+    "comments",
+    "comment",
+    "block comments",
+    "fancy comments",
+    "c",
+    "objective-c",
+    "cpp",
+    "java"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "objective-c",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "c",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "cpp",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "java",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
 }
