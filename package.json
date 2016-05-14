@@ -22,11 +22,7 @@
     "comments",
     "comment",
     "block comments",
-    "fancy comments",
-    "c",
-    "objective-c",
-    "cpp",
-    "java"
+    "fancy comments"
   ],
   "contributes": {
     "snippets": [
