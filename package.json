@@ -16,7 +16,7 @@
     "Snippets"
   ],
   "bugs": "https://github.com/TobiahZ/vscode-comment-snippets/issues",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE.txt",
   "keywords": [
     "snippets",
     "comments",
@@ -50,6 +50,12 @@
   },
   "scripts": {
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
-  }
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+    "pretest": "tsc",
+    "test": "mocha --ui tdd ./out/test/extension.test.js"
+  },
+  "devDependencies": {
+    "vsce": "^1.0.0",
+    "vscode": "^0.11.x"
+  },
 }
