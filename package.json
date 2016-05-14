@@ -5,7 +5,7 @@
   "version": "0.0.16",
   "publisher": "Tobiah",
   "engines": {
-    "vscode": "^0.10.7"
+    "vscode": "^0.11.0"
   },
   "homepage": "https://github.com/TobiahZ/vscode-comment-snippets",
   "repository": {
@@ -49,14 +49,13 @@
     ]
   },
   "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
     "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
     "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
     "pretest": "tsc",
     "test": "mocha --ui tdd ./out/test/extension.test.js"
   },
   "devDependencies": {
-    "typescript": "^1.6.2",
-    "vscode": "^0.10.7"
+    "vsce": "^1.0.0",
+    "vscode": "^0.11.x"
   }
 }
