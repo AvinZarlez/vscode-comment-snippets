@@ -8,7 +8,7 @@ A simple extension to add Comment Snippets for C, Objective-C and CPP and Java
 
 ### Video Pitch
 
-<<< Tobiah Zarlez will submit a pull request to submit the video link once it is uploaded >>>
+[![Final Presnetation: VSCode](http://video.ch9.ms/ch9/623e/9251fcf2-fdc9-476d-b644-3348bd6d623e/tj16vscode_Custom.jpg)](https://channel9.msdn.com/Events/ToolJam/2016/VSCode "Final Presnetation: VSCode")
 
 ## How did this project come about?
 
