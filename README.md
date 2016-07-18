@@ -1,6 +1,6 @@
 # VSCode Comment Snippets
 
-[![Build Status](https://travis-ci.org/TobiahZ/vscode-comment-snippets.svg?branch=master)](https://travis-ci.org/TobiahZ/vscode-comment-snippets)
+[![Build Status](https://travis-ci.org/TobiahZ/vscode-comment-snippets.svg?branch=master)](https://travis-ci.org/TobiahZ/vscode-comment-snippets) [![Dependency Status](https://dependencyci.com/github/TobiahZ/vscode-comment-snippets/badge)](https://dependencyci.com/github/TobiahZ/vscode-comment-snippets)
 
 ## About
 
