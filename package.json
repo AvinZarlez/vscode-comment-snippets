@@ -2,20 +2,20 @@
   "name": "comment-snippets",
   "displayName": "Comment Snippets",
   "description": "Snippets for standard comment formats",
-  "version": "0.2.0",
-  "publisher": "Tobiah",
+  "version": "0.0.1",
+  "publisher": "Zarlez",
   "engines": {
-    "vscode": "^0.10.8"
+    "vscode": "^1.92.0"
   },
-  "homepage": "https://github.com/TobiahZ/vscode-comment-snippets",
+  "homepage": "https://github.com/AvinZarlez/vscode-comment-snippets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/TobiahZ/vscode-comment-snippets.git"
+    "url": "https://github.com/AvinZarlez/vscode-comment-snippets.git"
   },
   "categories": [
     "Snippets"
   ],
-  "bugs": "https://github.com/TobiahZ/vscode-comment-snippets/issues",
+  "bugs": "https://github.com/AvinZarlez/vscode-comment-snippets/issues",
   "license": "SEE LICENSE IN LICENSE.txt",
   "keywords": [
     "snippets",
@@ -28,30 +28,21 @@
     "snippets": [
       {
         "language": "objective-c",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "c",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "cpp",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       },
       {
         "language": "java",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippets.code-snippets"
       }
     ]
-  },
-  "scripts": {
-    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
-  "devDependencies": {
-    "typescript": "^1.6.2",
-    "vscode": "^0.11.x"
   },
   "icon": "icon.png"
 }
